@@ -1,0 +1,238 @@
+/* les id */
+body{
+    background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_146185.jpg");
+}
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+}
+
+#container4exp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    align-content: center;
+}
+
+#container6profil {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container8quality {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container10coord {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* les class */
+.container-avatar {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.container-title {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.container-exp {
+    border: 3mm ridge rgba(241, 8, 8, 0.884);
+    background-color: rgba(155, 97, 97, 0.521);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+
+.container-profil {
+    border: 3mm ridge rgba(241, 8, 8, 0.884);
+    background-color: rgba(155, 97, 97, 0.521);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.container-quality {
+    border: 3mm ridge rgba(241, 8, 8, 0.884);
+    background-color: rgba(155, 97, 97, 0.521);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+
+}
+
+.container-coord {
+    border: 3mm ridge rgba(241, 8, 8, 0.884);
+    background-color: rgba(155, 97, 97, 0.521);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.container5exp {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    font-size: 1.5em;
+    line-height: 150%;
+
+}
+
+.container7profil {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container9quality {
+    display: flex;
+    flex-direction: column;
+
+}
+.container11coord{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+/* image et police */
+img{    
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    border-radius: 25%;
+}
+#tel{
+    height: 3%;
+    width: 3%;
+    padding:0;
+    
+}
+#mail{
+    height: 3%;
+    width: 3%;
+    padding-right:1;
+    padding:0;
+}
+#address{
+    height: 3%;
+    width: 3%;
+    padding:0;
+}
+h1 {
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.borderExp {
+    padding-bottom: 1%;
+}
+
+.profilPolice {
+    align-self: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+
+.qualityPolice {
+    align-self: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.policeCoord{
+    align-self: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-exp:hover{
+    border-color: goldenrod;
+    color: gold;
+    text-decoration: gold underline;
+}
+.container-profil:hover{
+    border-color: goldenrod;
+    color: gold;
+    text-decoration: gold underline;
+}
+.container-quality:hover{
+    border-color: goldenrod;
+    color: gold;
+    text-decoration: gold underline;
+}
+.container-coord:hover{
+    border-color: goldenrod;
+    color: gold;
+    text-decoration: gold underline;
+}
+.titleChange:hover{
+    color: gold;
+    text-decoration: gold underline;
+}
